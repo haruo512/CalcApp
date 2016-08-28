@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return;
         }
         String result_text2 = mEditText2.getText().toString();
-        if(result_text1.length()==0) {
+        if(result_text2.length()==0) {
             new AlertDialog.Builder(this)
                     .setTitle("アラート")
                     .setMessage("数値が未入力です。")
